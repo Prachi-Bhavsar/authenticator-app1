@@ -14,7 +14,7 @@ public class LoginauthenticatorController
         return "loginauth"; 
     }
 	
-	@GetMapping("registration")
+	@GetMapping("/")
 	public String showRegistration()
 	{
 		return "register";
